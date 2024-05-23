@@ -33,7 +33,7 @@
 
 .featured--points, 
 .featured--year, 
-.featured--seasons {
+.features--seasons {
     display: inline-block;
     margin-right: 15px;
 }

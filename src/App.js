@@ -5,7 +5,7 @@ import MovieRow from './components/MovieRow';
 import FeaturedMovie from './components/FeaturedMovie';
 import Header from './components/Header';
 
-export default () => {
+const App = () => {
 
   const [movieList, setMovieList] = useState([]);
   const [featuredData, setFeaturedData] = useState(null);
@@ -59,7 +59,7 @@ export default () => {
       </section>
 
       <footer>
-          Feito com <span role="img" aria-label='coração'>❤️</span> por Mateus Alves Conceição<br />  
+          Feito com <span role="img" aria-label='coração'>❤️</span> por Luiz Silva!!<br />  
           Direitos de imagem para Netflix<br />
           Dados utilizados do site Themoviedb.org
       </footer>
@@ -72,3 +72,5 @@ export default () => {
     </div>
   );
 }
+
+export default App;
